@@ -1,0 +1,138 @@
+
+body{
+
+  font-family: "open sans";
+}
+
+a{
+  color: white;
+  text-decoration: none;
+ 
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.site-header{
+
+  width: 100%;
+  background-color: #0000e6;
+  border-bottom: 1px solid black;
+  
+}
+
+.site-header .site-logo{
+  color: white;
+  font-family: "Oswald";
+}
+/*
+*  Header - site nav bar
+*/
+
+.site-header .main-menu{
+  width: 100%;
+}
+/* the UL Tag*/
+.site-header .main-menu .main-menu__list{
+  width: 100%;
+}
+
+/*the UL List Items*/
+
+.site-header .main-menu .main-menu__list-item{
+  display: inline;
+  
+}
+
+/*container*/
+.container{
+    max-width: 1200px;
+  margin: 0 auto;
+}
+/*Search box*/
+.search{
+  border-bottom: 1px solid #DCDCDC;
+  background-color: #F5F5F5;
+  overflow: auto;
+}
+.search__choice{
+  /*display: inline-block;
+  vertical-align: top;
+*/
+    float: left;
+    width: 20%;
+}
+
+.search__choice h4, .search__choice label{
+  display: block;
+}
+
+.row{
+  clear: both;
+  overflow: auto;
+  
+  margin-top: 5px;
+}
+
+.animal {
+  width: 360px;
+  height: 400px;
+  padding: 10px;
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: 1px solid gray;
+}
+
+.animal img {
+  max-width: 360px;
+}
+
+.animal .animal__name{
+ 
+  display:block;
+  text-align: center;
+  font-weight: bold;
+}
+.animal .animal__traits{
+  text-align: center;
+  padding: 2px;
+}
+.animal .animal__traits span{
+  display: inline-block;;
+  color: black;
+  background-color: aliceblue;
+  border:1px solid black;
+  margin: 2px;
+}
+.footer{
+  clear:both;
+}
+.footer__block a {
+  position: relative;
+  top: 50%;
+  font-size: 2rem;
+}
+
+.footer__block {
+  float: left;
+  width: 33.33%;
+  height: 450px;
+  text-align: center;
+}
+
+
+.footer__block--donate{
+  background: linear-gradient(rgba(204, 204, 250, 0.8),rgba(204, 204, 250, 0.8)), repeat center/cover url('https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fdonate.jpg?1524172864137');
+ 
+  
+}
+.footer__block--volunteer{
+  background: linear-gradient(rgba(204, 204, 250, 0.8),rgba(204, 204, 250,0.8)), repeat center/cover url('https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fvolunteer.jpg?1524172863718');
+  
+}
+.footer__block--location{
+  background: linear-gradient(rgba(204, 204, 250,0.8),rgba(204, 204, 250,0.8)), repeat center/cover url('https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Flocation.png?1524172864805');
+  
+}
