@@ -1,0 +1,117 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #48d1cc;/*#32928e;*/
+  margin:0;
+
+  
+}
+/*
+  CSS COMMENT
+*/
+.title-header{
+  font-size: 3em;
+  color: #071414;
+  text-align: center;
+  font-family: 'Damion', cursive;
+}
+
+.store-image {
+  width: 75%;
+  border-radius: 5%;
+  margin:auto;
+  display:block;
+}
+
+#main-body{
+  width: 75%;
+  margin:0 auto;
+}
+.nav-bar-format ul li{
+  list-style-type: none;
+  display: inline;
+}
+
+.nav-bar-format ul{
+  text-align: center;
+  padding:0;
+}
+
+#text{
+  color: #071414;/*#ecfaf9;*/
+  text-shadow: 1px 1px #153e3d;
+  font-size: 22px;
+}
+
+a{
+  color: #ecfaf9;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 2px;
+ 
+}
+/*
+*
+*  in stock styling page
+*
+*/
+
+#instock-header{
+  
+  text-align: center;
+
+}
+#list-of-plants li{
+  
+  list-style-type: none;
+
+}
+
+#list-of-plants li h2{
+  display:block;
+  color: #071414;
+  font-size: 3em;
+  font-family: 'Damion', cursive;
+  text-shadow: 1px 1px #39a7a3;
+  
+
+}
+ul li{
+  display: block;
+}
+ul li img{
+  float: left;
+  border: 1px solid #39a7a3;
+  
+}
+ul li p{
+  
+  
+  
+  color: #ecfaf9;
+  text-shadow: 1px 1px #0e2928;
+  padding:0;
+  margin:0;
+  float: right;
+  font-size: 22px;
+  width: 33.33%;
+ 
+}
+
+.header-shadow{
+ text-shadow: 1px 1px #39a7a3;
+
+}
+
+#footer{
+  display:inline-block;
+  position: relative;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: #0e2928;
+  
+}
+#footer-title{
+  text-align: center;
+   color: #ecfaf9;
+}
